@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="490.0" prefWidth="697.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="InventoryController">
+   <children>
+      <ComboBox fx:id="itemSelectionBox" layoutX="38.0" layoutY="68.0" onAction="#itemSelected" prefWidth="150.0" />
+      <Button fx:id="btnClear" layoutX="42.0" layoutY="440.0" mnemonicParsing="false" onAction="#clearBtnAction" text="Clear" />
+      <Button fx:id="btnAddItem" layoutX="96.0" layoutY="440.0" mnemonicParsing="false" onAction="#addBtnAction" text="Add" />
+      <Button fx:id="btnUpdateItem" disable="true" layoutX="142.0" layoutY="440.0" mnemonicParsing="false" onAction="#updateBtnAction" text="Update" />
+      <Button fx:id="btnDeleteItem" layoutX="208.0" layoutY="440.0" mnemonicParsing="false" onAction="#deleteBtnAction" text="Delete" />
+      <Button fx:id="btnManagerAccess" layoutX="549.0" layoutY="440.0" mnemonicParsing="false" onAction="#btnManager" text="Manager Access" />
+      <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="726.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+                  <MenuItem fx:id="menuSave" mnemonicParsing="false" onAction="#SaveInventory" text="Save" />
+              <MenuItem fx:id="menuExit" mnemonicParsing="false" onAction="#ExitInventory" text="Exit" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+                  <MenuItem fx:id="menuWelcome" mnemonicParsing="false" text="Welcome" />
+              <MenuItem fx:id="menuAbout" mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <TextField fx:id="txtItemName" layoutX="202.0" layoutY="68.0" prefHeight="25.0" prefWidth="284.0" />
+      <TextField fx:id="txtSKU" layoutX="490.0" layoutY="68.0" />
+      <TextField fx:id="txtCost" layoutX="39.0" layoutY="122.0" />
+      <TextField fx:id="txtPrice" disable="true" layoutX="215.0" layoutY="122.0" />
+      <TextField fx:id="txtQuantity" layoutX="389.0" layoutY="122.0" />
+      <TextField fx:id="txtDateReceived" layoutX="39.0" layoutY="181.0" />
+      <TextArea fx:id="txtManagerNotes" layoutX="41.0" layoutY="240.0" prefHeight="181.0" prefWidth="631.0" />
+      <Label layoutX="204.0" layoutY="51.0" text="Item Name" />
+      <Label layoutX="39.0" layoutY="105.0" text="Cost" />
+      <Label layoutX="216.0" layoutY="105.0" text="Price" />
+      <Label layoutX="491.0" layoutY="51.0" text="SKU" />
+      <Label layoutX="392.0" layoutY="105.0" text="Quantity" />
+      <Label layoutX="43.0" layoutY="164.0" text="Date Received" />
+      <TextField fx:id="txtExpirationDate" disable="true" layoutX="377.0" layoutY="181.0" />
+      <Label layoutX="377.0" layoutY="164.0" text="Expiration Date" />
+      <Label layoutX="43.0" layoutY="223.0" text="Manager Notes:" />
+      <Label layoutX="37.0" layoutY="51.0" text="Item Selection" />
+      <CheckBox fx:id="checkPerishable" layoutX="232.0" layoutY="185.0" mnemonicParsing="false" onAction="#checkPerishable" text="Perishable Item" />
+   </children>
+</AnchorPane>

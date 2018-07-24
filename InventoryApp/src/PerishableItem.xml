@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PerishableItems>
+    <PerishableItem>
+        <cost>9.59</cost>
+        <dateRecieved>4-21-2018</dateRecieved>
+        <name>Pancakes</name>
+        <price>10.549000000000001</price>
+        <qty>10</qty>
+        <sku>546-9123</sku>
+        <expirationDate>4-30-2018</expirationDate>
+    </PerishableItem>
+    <PerishableItem>
+        <cost>1.05</cost>
+        <dateRecieved>4-28-2018</dateRecieved>
+        <name>Bananas</name>
+        <price>1.1</price>
+        <qty>10</qty>
+        <sku>431-5732</sku>
+        <expirationDate>5-5-2018</expirationDate>
+    </PerishableItem>
+</PerishableItems>

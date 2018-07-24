@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<NonPerishableItems>
+    <NonPerishableItem>
+        <cost>9.75</cost>
+        <dateRecieved>12-18-2018</dateRecieved>
+        <name>Hammers</name>
+        <price>13.750000000000002</price>
+        <qty>12</qty>
+        <sku>333-7681</sku>
+    </NonPerishableItem>
+</NonPerishableItems>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Users>
+    <User>
+        <accessLevel>Admin</accessLevel>
+        <id>Admin</id>
+        <password>Admin</password>
+    </User>
+    <User>
+        <accessLevel>Sales</accessLevel>
+        <id>Test</id>
+        <password>Waffles</password>
+    </User>
+    <User>
+        <accessLevel>Stock</accessLevel>
+        <id>Tommy</id>
+        <password>Banana</password>
+    </User>
+    <User>
+        <accessLevel>Manager</accessLevel>
+        <id>Manager</id>
+        <password>Tacos</password>
+    </User>
+</Users>
